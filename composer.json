@@ -1,0 +1,19 @@
+{
+    "name": "fzr/kit",
+    "description": "A lightweight collection of modern PHP utility classes (Date, IO, Util, SEO).",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "ext-mbstring": "*",
+        "ext-zip": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fzr\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
